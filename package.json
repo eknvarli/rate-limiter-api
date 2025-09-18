@@ -1,0 +1,25 @@
+{
+  "name": "rate-limiter-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "serv": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eknvarli/rate-limiter-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/eknvarli/rate-limiter-api/issues"
+  },
+  "homepage": "https://github.com/eknvarli/rate-limiter-api#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "ioredis": "^5.7.0"
+  }
+}
