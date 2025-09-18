@@ -2,9 +2,9 @@
   "name": "rate-limiter-api",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
+  "main": "src/app.ts",
   "scripts": {
-    "serv": "node src/app.js"
+    "start": "tsx src/app.ts"
   },
   "repository": {
     "type": "git",
