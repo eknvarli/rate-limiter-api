@@ -39,7 +39,7 @@ app.get('/data', async (req, res) => {
             remaining: result.remaining,
             reset_in: result.reset_in
         })
-    } catch (err) {
+    } catch (err: any) {
         console.error(err.message)
         res.status(500).json({'error':'Rate limiter API ile iletişim kurulamadı'})
     }
