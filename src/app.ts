@@ -1,5 +1,5 @@
 import express from "express";
-import limitRoutes from './routes/limiter.js'
+import limitRoutes from './routes/limiter'
 
 const app = express()
 

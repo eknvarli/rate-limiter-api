@@ -20,6 +20,10 @@
   "homepage": "https://github.com/eknvarli/rate-limiter-api#readme",
   "dependencies": {
     "express": "^5.1.0",
-    "ioredis": "^5.7.0"
+    "ioredis": "^5.7.0",
+    "tsx": "^4.20.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3"
   }
 }

@@ -1,6 +1,6 @@
-import redis from '../config/redis.js'
+import redis from '../config/redis'
 
-export async function checkRateLimit(apiKey, identifier, limit, window) {
+export async function checkRateLimit(apiKey: any, identifier: any, limit: any, window: any) {
     const key = `rate:${apiKey}:${identifier}`
     const current = await redis.incr(key)
 

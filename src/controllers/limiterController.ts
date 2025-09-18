@@ -1,6 +1,6 @@
-import { checkRateLimit } from "../services/limiterService.js";
+import { checkRateLimit } from "../services/limiterService";
 
-export async function handleRateLimit(req, res) {
+export async function handleRateLimit(req: any, res: any) {
     const apiKey = req.headers.authorization?.split(" ")[1]
     if (!apiKey) {
         return res.status(401).json({'error':'API key required.'})

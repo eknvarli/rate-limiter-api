@@ -1,5 +1,5 @@
 import express from 'express'
-import { handleRateLimit } from '../controllers/limiterController.js'
+import { handleRateLimit } from '../controllers/limiterController'
 
 const router = express.Router()
 
